@@ -1,0 +1,19 @@
+# --- Terraform ---
+.terraform/
+.terraform.lock.hcl.bak
+*.tfstate
+*.tfstate.*
+tfplan.bin
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+.terraformrc
+terraform.rc
+
+# --- OS / 에디터 ---
+Thumbs.db
+.DS_Store
+*.swp
