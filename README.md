@@ -8,7 +8,7 @@ Google Cloud Skills Boost 실습 문서(한국어)를 학습하며 수행한 내
 
 ```
 GCP_Lab/
-├── 01 ~ 15 *.md                  # 실습 가이드 문서 (한국어 번역본)
+├── 04.Implement Private Google Access and Cloud NAT_KR.md   # Lab 04 가이드 (레포 관리 대상)
 ├── check_lab04.sh                # Lab 04 체크포인트 검증 스크립트 (17개 항목)
 ├── lab04_bucket.txt              # Lab 04에서 생성한 버킷 이름
 └── terraform/                    # Lab 04의 Terraform 코드 (README 참고)
@@ -21,6 +21,9 @@ GCP_Lab/
     ├── outputs.tf / terraform.tfvars
     └── files/access.svg          # 버킷 업로드용 샘플 이미지
 ```
+
+> ℹ️ 그 외 실습 문서(01~03, 05~15)는 개인 학습용으로 로컬에만 보관하며
+> 저장소에서는 제외됩니다 (.gitignore 참고).
 
 ## 🧪 Lab 04. Implement Private Google Access and Cloud NAT
 

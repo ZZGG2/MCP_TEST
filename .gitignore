@@ -13,6 +13,10 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# --- 실습 가이드 문서: Lab 04만 레포 관리, 나머지는 로컬 전용 ---
+[0-9][0-9].*_KR.md
+!04.*_KR.md
+
 # --- OS / 에디터 ---
 Thumbs.db
 .DS_Store
